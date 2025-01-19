@@ -29,7 +29,7 @@ const Navbar = () => {
             <nav className='fixed z-40 w-full font-[Ubuntu]'>
                 <div className=' flex items-center justify-between px-5 md:px-7 py-2 md:py-7 2xl:py-10 w-full  text-white text-2xl md:text-3xl 2xl:text-4xl'>
                     <Link to="/" className='text-emeraldText'>SC</Link>
-                    <Link to="/contact" className='text-emeraldText bg-red-800 md:pt-4 pt-[5px] text-xl '>Contact Me
+                    <Link to="/contact" className='text-emeraldText md:pt-4 pt-[5px] text-xl '>Contact Me
                         <div className='callIcon text-2xl xl:text-3xl 2xl:text-4l flex items-center justify-center  text-white'>
                             <GiRotaryPhone />
                         </div>
