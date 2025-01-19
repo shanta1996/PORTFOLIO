@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body,html{
+  overflow-x: hidden;
+  /* height: 100vh; */
+}
+
+/* ForeGround */
+.loader {
+  position: relative;
+  width: 64px;
+  height: 60px;
+}
+.loader::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  width: 64px;
+  height: 32px;
+  border-radius: 0 0 50px 50px;
+  animation: move 0.5s linear infinite alternate;
+}
+.loader::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background: #ff3d00;
+  width: 24px;
+  height: 24px;
+  transform: translateX(-50%) rotate(0deg);
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    background-color: #10b981;
+  }
+  50% {
+    background-color: #ff3d00;
+  }
+  100% {
+    transform: translateX(-50%) rotate(360deg);
+    background-color: #10b981;
+  }
+}
+@keyframes move {
+  0% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.scroller {
+  display: block;
+  position: relative;
+  height: 30px;
+  width: 100px;
+  background: linear-gradient(#fff 2px, transparent 0) no-repeat;
+  background-position: 0 16px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.scroller:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #10b981;
+  box-sizing: border-box;
+  animation: ballbns 3s linear infinite;
+}
+
+@keyframes ballbns {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    left: 100%;
+    transform: translateX(0%);
+  }
+}
+
+
+/* about */
+/* .aboutHeading{
+  animation: color 10s linear infinite;
+}
+@keyframes color {
+ 0%{
+  color: white;
+ }
+ 50%{
+  color: #10b981;
+ }
+  
+ 100%{
+color: white;
+ }
+  
+} */
+
+
+
+
+/* .image{
+  background-image: url('/phone.webp');
+  width: 200px;
+  height: 100px;
+} */
+
+
+.link:hover .textPara{
+  opacity: 1;
+}
+
+
+/* slill */
+.skillImage:hover .skillPara{
+  opacity: 1;
+  left: 0;
+}
+
+/* contact */
+.tealTel{
+  animation: bounceTeal 7s linear infinite;
+}
+@keyframes bounceTeal {
+0%{
+  transform: translate(0px);
+}
+15%{
+  
+  transform: translate(150px,70px);
+}
+25%{
+  
+  transform: translate(300px,1px);
+}
+35%{
+  
+  transform: translate(500px,115px);
+}
+45%{
+  
+  transform: translate(750px,25px);
+}
+55%{
+  
+  transform: translate(620px,1px);
+}
+65%{
+  
+  transform: translate(520px,25px);
+}
+75%{
+  
+  transform: translate(350px,1px);
+}
+85%{
+  
+  transform: translate(200px,115px);
+}
+100%{
+  transform: translate(0px);
+}
+ 
+}
+.redTel{
+  animation: bounceRed 7s linear infinite;
+}
+@keyframes bounceRed {
+  0%{
+    transform: translate(0);
+  }
+  20%{
+    transform: translate(-400px,115px);
+  }
+  30%{
+    transform: translate(-600px,1px);
+  }
+  50%{
+    transform: translate(-780px,27px);
+  }
+  70%{
+    transform: translate(-600px,1px);
+  }
+  90%{
+    transform: translate(-300px,115px);
+  }
+  100%{   
+    transform: translate(0);
+  }
+}
+/* translate-x-[-600px] translate-y-[1px] */
