@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import workImage from '../utils/workdata.json'
+// import workImage from '../utils/workdata.json'
 
 gsap.registerPlugin(ScrollTrigger)
 const Works = () => {
