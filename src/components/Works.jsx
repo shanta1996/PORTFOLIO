@@ -25,7 +25,7 @@ const Works = () => {
 
 
     gsap.to('.link',{
-      opacity:0,
+      // opacity:0,
       duration:3,
       scrollTrigger:{
         trigger:'.link',
@@ -63,23 +63,23 @@ const Works = () => {
             </p>
           </Link>
           <Link to="https://shanta1996.github.io/Add-remove-button/" className='link h-[300px] md:h-[80%] w-[300px] 2xl:w-[400px] rounded-3xl overflow-hidden relative bg-teal-700 ' target='_blank'>
-            <p className='text-white p-8 text-xl md:text-2xl font-semibold text-center '>Instagram love react</p>
+            <p className='text-white p-8 text-xl md:text-2xl font-semibold text-center '>Add-remove button</p>
             <img src="/friends.webp" className='workImage h-full w-full object-cover ' alt="add-removepage" />
             <p className='textPara opacity-0 duration-300 ease-linear h-full w-full bg-teal-700 absolute top-0 flex flex-col items-center justify-center text-2xl md:text-3xl font-semibold'>Add-remove button
               <span className='text-xl font-normal mt-6'>Click here</span>
             </p>
           </Link>
           <Link to="https://shanta1996.github.io/cursor-js/" className='link h-[300px] md:h-[80%] w-[300px] 2xl:w-[400px] rounded-3xl overflow-hidden relative bg-teal-700 ' target='_blank'>
-            <p className='text-white p-8 text-xl md:text-2xl font-semibold text-center '>Instagram love react</p>
+            <p className='text-white p-8 text-xl md:text-2xl font-semibold text-center '>Cursor</p>
             <img src="/cursor.png" className='workImage h-full  object-cover' alt="cursorpage" />
-            <p className='textPara opacity-0 duration-300 ease-linear h-full w-full bg-teal-700 absolute top-0 flex flex-col items-center justify-center text-2xl md:text-3xl font-semibold'>Add-remove button
+            <p className='textPara opacity-0 duration-300 ease-linear h-full w-full bg-teal-700 absolute top-0 flex flex-col items-center justify-center text-2xl md:text-3xl font-semibold'>Cursor
               <span className='text-xl font-normal mt-6'>Click here</span>
             </p>
           </Link>
-          <Link to="https://shanta1996.github.io/sid-cup-golf-clone/" className='link h-[300px] md:h-[80%] w-[300px] 2xl:w-[400px] rounded-3xl overflow-hidden relative bg-teal-700 ' target='_blank'>
-            <p className='text-white p-8 text-xl md:text-2xl font-semibold text-center '>Instagram love react</p>
-            <img src="/sidcup.png" className=' h-full  object-cover' alt="sidcupclone" />
-            <p className='textPara opacity-0 duration-300 ease-linear h-full w-full bg-teal-700 absolute top-0 flex flex-col items-center justify-center text-2xl md:text-3xl font-semibold'>Add-remove button
+          <Link to="https://tharu-culture.vercel.app/" className='link h-[300px] md:h-[80%] w-[300px] 2xl:w-[400px] rounded-3xl overflow-hidden relative bg-teal-700 ' target='_blank'>
+            <p className='text-white p-8 text-xl md:text-2xl font-semibold text-center '>Tharu-culture</p>
+            <img src="https://d34vm3j4h7f97z.cloudfront.net/optimized/4X/0/8/0/0801b0d30238a77b70d28b5db37848ee58350afd_2_333x500.jpeg" className=' h-full  object-cover' alt="sidcupclone" />
+            <p className='textPara opacity-0 duration-300 ease-linear h-full w-full bg-teal-700 absolute top-0 flex flex-col items-center justify-center text-2xl md:text-3xl font-semibold'>Tharu-culture
               <span className='text-xl font-normal mt-6'>Click here</span>
             </p>
           </Link>
